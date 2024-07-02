@@ -1,0 +1,24 @@
+{
+  "name": "kdf",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "elliptic": "^6.5.5",
+    "ethers": "^6.13.1",
+    "near-api-js": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/elliptic": "^6.4.18",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}
